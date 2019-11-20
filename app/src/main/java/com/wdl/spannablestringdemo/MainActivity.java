@@ -32,9 +32,9 @@ import android.widget.TextView;
 
 /**
  * Spannable四种模式：
- * 1.Spannable.SPAN_INCLUSIVE_EXCLUSIVE 包括起始下标，结束下标除外
- * 2.Spannable.SPAN_INCLUSIVE_INCLUSIVE 包括起始下标和结束下标
- * 3.Spannable.SPAN_EXCLUSIVE_INCLUSIVE 包括结束下标，起始下标除外
+ * 1.Spannable.SPAN_INCLUSIVE_EXCLUSIVE 起始下标之前添加新文字也会应用、结束下标之后添加新文字不会应用
+ * 2.Spannable.SPAN_INCLUSIVE_INCLUSIVE 起始下标和结束下标前、后添加文本都会应用
+ * 3.Spannable.SPAN_EXCLUSIVE_INCLUSIVE 与第一种相反
  * 4.Spannable.SPAN_EXCLUSIVE_EXCLUSIVE 都不包括
  * <p>
  */
